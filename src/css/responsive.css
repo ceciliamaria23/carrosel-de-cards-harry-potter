@@ -1,0 +1,79 @@
+
+@media(max-width:620px){
+    .harry-slider{
+        padding: 0 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 440px;
+        gap: 5px;
+       
+    }
+    .btn-seta{
+        width: 120px;
+        height: 10px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    
+    .img-potter{
+        width:180px;
+        height: 180px;
+    }
+    .cartao{
+        width: 230px;
+        height: 460px;
+        min-width: 230px;
+        position: absolute;
+    }
+    .lista-potter{
+        max-height: 460px;
+    }
+
+    .cartao .img-potter{
+        max-height: 200px;
+
+    }
+
+    .cartao .informacoes .nome{
+        max-width: 50%;
+        font-size: 15px;
+    }
+
+    .cartao .informacao .casa{
+        max-width: 35%;
+        max-height: 40%;
+    }
+
+}
+
+
+@media(min-width:5px) and (max-width: 393px){
+      
+    .harry-slider{
+        display: flex;
+        width: 490px;
+      
+    }
+
+    .cartao{
+        width: 100px;
+        min-width: 200px;
+        
+    }
+  
+    .btn-seta{
+        width: 120px;
+        height: 10px;
+        padding: 0px;
+        gap: 0px;
+       
+    }
+  
+} 
+
+
+ 
